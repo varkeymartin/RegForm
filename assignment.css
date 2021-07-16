@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: lightgrey;
+    color: black;
+}
+
+.heading{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#LoginButton{
+   margin-left: 20px;
+   background: blue;
+   color: white;
+}
+
+form{
+    background: white;
+    color: black;
+}

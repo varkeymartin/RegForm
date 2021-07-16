@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="assignment.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    
+</head>
+<body>
+    <h1 class="heading">WEB TECHNOLOGY SECOND ASSIGNMENT</h1>
+    <div class="mylogin">
+    <small class="card-subtitle mb-2 text-muted">Use email: user@gmail.com and password: user123_ to login</small>
+
+      <form action="#" onsubmit=" return validate();">
+        <div class="form-row">
+            <div class="form-group col-md-3">
+            <label for="inputEmail4 class=col-sm-3 col-form-label">Email</label>
+            <input type="email" class="form-control" id="email"   placeholder="Enter Email Id" required>
+            
+          </div>
+          
+          <div class="form-group col-md-3">
+            <label for="inputPassword4">Password</label>
+            <input type="password" class="form-control" id="password" minlength="8"  placeholder="Enter Password" required>
+          </div>
+        </div>
+          <label for="error" id="error"></label>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Remember Me
+              <button id="LoginButton">Forgot Password ?</button>
+            </label>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Sign in</button>
+        <br>
+            <div class="Signup">
+                <h5>No account! Sign up !!</h5>
+                
+                <a href="#">SignUp</a>
+            </div>
+      </form>
+    </div>
+   
+    <script src="./javascriptfile.js"></script>
+</body>
+</html>
